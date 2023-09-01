@@ -5,7 +5,11 @@
 }
 
 .Column {
-  calc((100% - var(--column-spacing) * 1) * 0.43);
+  width: calc((100% - var(--column-spacing) * 1) * 0.43);
+}
+
+.w-layout-blockcontainer {
+  width: 100%;
 }
 
 body {
