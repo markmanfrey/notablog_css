@@ -20,6 +20,11 @@
   width: 100%;
 }
 
+.SemanticString__Fragment--Commented {
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 0px;
+}
+
 body {
   background: var(--bg);
 }
