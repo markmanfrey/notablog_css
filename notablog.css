@@ -8,11 +8,11 @@
   width: calc((100% - var(--column-spacing) * 1) * 0.43);
 }
 
-.Image--Normal {
+.Image--Normal > figure img, .Image--PageWidth > figure img {
   max-width: 92%;
 }
 
-.img {
+img {
   max-width: 92%;
 }
 
