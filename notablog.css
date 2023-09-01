@@ -8,6 +8,14 @@
   width: calc((100% - var(--column-spacing) * 1) * 0.43);
 }
 
+.Image--Normal {
+  max-width: 92%;
+}
+
+.img {
+  max-width: 92%;
+}
+
 .w-layout-blockcontainer {
   width: 100%;
 }
