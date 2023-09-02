@@ -27,6 +27,7 @@ img {
 
 body {
   background: var(--bg);
+  font-size: 18px;
 }
 
 /* Navbar */
@@ -151,18 +152,32 @@ body {
   margin-top: 2.5rem;
   margin-bottom: 0.25em;
   line-height: 1.2;
-  font-size: 2.625rem;
+  font-size: 2.325remrem;
   font-weight: 700;
   letter-spacing: -0.005em;
 }
 
 .Header > *:last-child {
-  margin-bottom: 2.5rem;
+  margin-bottom: .25rem;
 }
 
 .Header__DescBigQuoteMark {
   font-size: 1.5em;
   line-height: 0;
+}
+
+.Heading--2 .SemanticString {
+    font-size: 1.625rem;
+    line-height: 1.538;
+}
+.Heading .SemanticString {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.Text__Content {
+    padding: 3px 2px;
+    margin: 2px 0;
 }
 
 /* DateTagBar */
