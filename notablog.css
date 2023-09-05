@@ -4,9 +4,9 @@
   --column-spacing: 10vw;
 }
 
-.hack5-filter-grid {
+/*.hack5-filter-grid {
   height: 2900px;
-}
+}*/
 
 .Column {
   width: calc((100% - var(--column-spacing) * 1) * 0.5);
