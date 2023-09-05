@@ -5,7 +5,17 @@
 }
 
 .Column {
-  width: calc((100% - var(--column-spacing) * 1) * 0.43);
+  width: calc((100% - var(--column-spacing) * 1) * 0.5);
+}
+
+.Column:not(:first-child) {
+    margin-left: 0px;
+}
+
+.ColumnList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .Image--Normal > figure img, .Image--PageWidth > figure img {
