@@ -41,7 +41,7 @@ img {
 }
 
 body {
-  background: var(--bg);
+  background-color: transparent;
 }
 
 /* Navbar */
